@@ -11,8 +11,8 @@ body {
 }
 
 body {
-  background-color: var(--mainColor);
-  color: var(--textColor);
+  background-color: var(--mainColor) !important;
+  color: var(--textColor) !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,8 +22,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--mainColor);
-    color: var(--textColor);
+    background-color: var(--mainColor) !important;
+    color: var(--textColor) !important;
   }
 }
 
